@@ -3,8 +3,6 @@ import os
 import random
 import requests
 
-TELEGRAM_BOT_TOKEN = os.environ["8343053389:AAGd2-WGKA4yOWngUotuftaVwEGrxAz0NO4"]
-TELEGRAM_CHAT_ID = os.environ["994690178"]
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "expressions.json")
 
