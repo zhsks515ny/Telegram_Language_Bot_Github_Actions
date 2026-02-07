@@ -16,7 +16,7 @@ def load_expressions():
 
 def format_message(expr):
     return (
-        f"📚 *오늘의 영어 표현 #{expr['id']}*\n"
+        f"📚 *오늘의 영어 표현 *\n"
         f"\n"
         f"💬 *{expr['expression']}*\n"
         f"📖 뜻: {expr['meaning']}\n"
